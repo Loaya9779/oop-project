@@ -4,14 +4,12 @@ abstract class Event {
   String name;
   String place;
   DateTime time;
-  String description;
   int availableTickets;
 
   Event({
     required this.name,
     required this.place,
     required this.time,
-    required this.description,
     required this.availableTickets,
   });
 
